@@ -36,6 +36,8 @@ config.window_padding = {
 
 -- tab bar
 config.hide_tab_bar_if_only_one_tab = false
+config.tab_bar_at_bottom = true
+config.use_fancy_tab_bar = false
 
 -- Leader key
 config.leader = { key = 'Space', mods = 'CTRL|META', timeout_milliseconds = 1000 }
