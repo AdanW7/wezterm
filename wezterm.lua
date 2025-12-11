@@ -44,9 +44,16 @@ config.leader = { key = 'Space', mods = 'CTRL|META', timeout_milliseconds = 1000
 
 -- Key bindings
 config.keys = {
+    -- key combos to ignore
   {
     key = 'm',
     mods = 'SUPER',
+    action = wezterm.action.DisableDefaultAssignment,
+  },
+
+  {
+    key = 'Enter',
+    mods = 'META',
     action = wezterm.action.DisableDefaultAssignment,
   },
 
